@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_add_contact.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/edit_text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Teléfono"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/edit_text_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ciudad" />
+
+    <EditText
+        android:id="@+id/edit_text_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="correo" />
+
+    <Button
+        android:id="@+id/btn_save_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
